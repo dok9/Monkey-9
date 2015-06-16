@@ -1,0 +1,3 @@
+신규 페이지
+- user > user_0003_information.html
+- content.css /* 개인정보 취급방침 */ 주석부분
