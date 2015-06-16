@@ -1,0 +1,10 @@
+/*
+$(function(){
+	$('.lst_type>li').bind('click',function(){
+		$(this).parent().next().children('.lst_type2>li').eq($(this).index()).show().siblings().hide().parents('tr').siblings().children().children('.lst_type2').children().hide();
+		$(this).parent().parent().css('background','#edf2f8').parent().siblings().children().css('background','#fff');
+		$(this).parent().next('.lst_type2').children().children().css('background','#edf2f8')
+		$(this).addClass('on').siblings().removeClass('on').parents('tr').siblings().children().children('.lst_type').children().removeClass('on');
+	});
+});
+*/

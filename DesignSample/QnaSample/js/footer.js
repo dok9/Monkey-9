@@ -1,0 +1,17 @@
+document.write('	<div id="footer"><!-- footer -->');
+document.write('		<div class="footer_inner">');
+document.write('			<p class="foot_logo"><span class="logo foot">롯데인재개발원</span></p>');
+document.write('			<div class="foot_rgt">');
+document.write('				<ul class="lst_footmenu">');
+document.write('					<li><a href="#">개인정보처리방침</a></li>');
+document.write('					<li><a href="#"><span class="ico ico_pin"></span>찾아오시는길</a></li>');
+document.write('				</ul>');
+document.write('				<ul class="lst_contact">');
+document.write('					<li><address>(447-050) 경기도 오산시 경기동로 168번지 롯데인재개발원</address></li>');
+document.write('					<li>대표전화 031-370-1041-4</li>');
+document.write('					<li>대표팩스 02-708-3566</li>');
+document.write('				</ul>');
+document.write('				<p>COPYRIGHT 2015 LOTTE ACADEMY. ALL RIGHT RESERVED.</p>');
+document.write('			</div>');
+document.write('		</div>');
+document.write('	</div><!-- //footer -->');

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* BlueWaves Web Standard Team Author KKS, Co-Author LSJ */
+ 
+/* Common */
+@font-face{font-family:NanumGothicWeb;src:url(../font/NanumGothicBold.eot);src:local(※),url(../font/NanumGothicBold.woff) format('woff')}
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,a,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:/* NanumGothic,'나눔고딕', */NanumGothicWeb,'돋움',dotum,sans-serif;font-size:13px;line-height:1.8em;color:#777}
+body{word-break:break-all}
+img,fieldset,iframe{border:0}
+img{max-width:100%;vertical-align:top}
+li{list-style:none}
+em,address{font-style:normal}
+address{float:left;padding-right:12px}
+input,select,button{vertical-align:middle}
+caption,legend,.blind{overflow:hidden;position:absolute;top:0;left:-999em;line-height:0}
+caption{position:static}
+input[type=text],input[type=password]{width:96.4%;height:28px;padding:0 10px;border:1px solid #ccc;border-radius:0;vertical-align:middle;line-height:27px;-webkit-appearance:none}
+input[type=file]{width:99.5%;height:28px;border:1px solid #ccc;background-color:#fff}
+input[type=text]::-ms-clear{display:none}
+input[type=radio]{*width:13px;*height:13px}
+select{height:30px;padding:4px 0;border:1px solid #ccc;vertical-align:middle}
+:root select{padding:0}
+textarea{width:96.4%;padding:5px 10px;border:1px solid #ccc}
+table{border-collapse:collapse;border-spacing:0;table-layout:fixed;zoom:1}
+hr{display:none}
+
+/* Aline */
+.fl{float:left}
+.fr{float:right}
+.of_h{overflow:hidden}
+.pr{position:relative}
+.db{display:block}
+.di_b{display:inline-block}
+.ls1{letter-spacing:-1px}
+.vt{vertical-align:top}
+.vm{vertical-align:middle}
+.vb{vertical-align:bottom}
+.tc{text-align:center}
+.tr{text-align:right}
+
+/* Link */
+a:link,a:visited{color:#777;text-decoration:none}
+a:active,a:hover,a:focus{color:#333;text-decoration:underline}
+
+/* Skip Navigation */
+#u_skip{position:absolute;top:0;left:0;z-index:200;width:100%}
+#u_skip a{display:block;position:absolute;top:-50px;left:0;z-index:200;width:100%;padding:10px 0;background:#457ec1;color:#fff;text-align:center;font-weight:bold;text-decoration:none}
+#u_skip a:active,#u_skip a:focus{top:0;text-decoration:none}
+#u_skip a{-moz-transition:all .3s;-webkit-transition:all .3s;transition:all .3s} 

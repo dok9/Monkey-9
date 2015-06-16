@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* BlueWaves Web Standard Team Author KKS, Co-Author LSJ */
+
+/* Layout :: [컨텐츠 공통] */
+#header{border-bottom:1px solid #e5e5e5}
+.header_inner{width:940px;height:74px;margin:0 auto}
+#container{position:relative;width:940px;margin:0 auto}
+.content{margin-bottom:100px}
+#footer{padding-bottom:20px;border-top:1px solid #e5e5e5}
+.footer_inner{width:940px;margin:0 auto;color:#999}
+
+/* Header :: [컨텐츠 공통] */
+.group_logo{overflow:hidden;float:left;position:relative;width:230px;height:49px;padding-top:25px;zoom:1}
+.group_logo>h1>a,.group_logo>p{overflow:hidden;height:31px;background:url(../img/sp_logo.jpg) no-repeat;text-indent:-999em}
+.group_logo>h1>a{display:block;width:107px;margin-left:120px;background-position:0 0}
+.group_logo>p{position:absolute;top:25px;left:0;width:99px;background-position:0 -35px}
+.group_user{overflow:hidden;float:right;padding-top:26px;zoom:1}
+.lst_user{overflow:hidden;float:left;margin-left:10px}
+.lst_user dd{float:left;padding:0 10px;background:url(../img/bu_l.gif) no-repeat 100% 7px}
+.lst_user.v2 dd{padding-right:0;background:none}
+.lst_user dd>a{color:#999} 
+
+/* GNB :: [컨텐츠 공통] */
+
+/* Footer :: [컨텐츠 공통] */
+.group_footmenu{margin:12px 0 6px}
+.footer_inner a{color:#457ec1}
+.tx_copyright{float:left;padding-left:12px;background:url(../img/bu_l.gif) no-repeat 0 9px}
+
+/* Margin, Padding :: [컨텐츠 공통] */
+.mt10{margin-top:10px}
+.mt15{margin-top:15px}
+.mt20{margin-top:20px}
+.mt25{margin-top:25px}
+.mr5{margin-right:5px}
+.mr10{margin-right:10px}
+.mr20{margin-right:20px}
+.mr30{margin-right:30px}
+.mr50{margin-right:50px}
+
+/* Text :: [컨텐츠 공통] */
+
+/* Button :: [컨텐츠 공통] */
+.btn{display:inline-block;font-weight:bold;white-space:nowrap;vertical-align:middle}
+.btn:hover,.btn:active,.btn:focus{text-decoration:none}
+.btn.gray{height:26px;padding:0 11px 0 13px;border:1px solid #a6a6a6;background:#fff;/* Old browsers */background:-webkit-linear-gradient(top,#fff 0%,#f3f3f3 100%);/* Chrome10+,Safari5.1+ */background:linear-gradient(to bottom,#fff 0%,#f3f3f3 100%);/* W3C */filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0);/* IE6-9 */color:#555;line-height:27px;letter-spacing:-1px}
+.btn.gray.v2,.btn.gray.v6{border-color:#6d9dd5;color:#457ec1}
+.btn.gray.v3,.btn.gray.v6{width:76px;padding:0;text-align:center}
+.btn.gray.v4{height:20px;padding:0 6px;line-height:21px}
+.btn.gray.v5{width:72px;height:48px;padding:0;text-align:center;line-height:48px}
+.btn.gray.v7{float:right;height:28px}
+
+.btn_cnt{position:relative;margin-top:30px;text-align:center}
+.loc_btn_rgt{position:absolute;top:0;right:0}
+.loc_btn_lft{position:absolute;top:0;left:0}
+
+/* ICON :: [컨텐츠 공통] */
+.ico{display:inline-block;overflow:hidden;background:url(../img/sp_ico.gif) no-repeat;text-indent:-9999px;vertical-align:middle}
+.ico.ico_more{width:10px;height:10px;margin-left:5px;background-position:0 0}
+.ico_depth_next{width:5px;height:9px;margin:0 7px;background-position:-35px 0}
+.ico_house{width:12px;height:10px;margin:-1px 7px 1px 0;background-position:-15px 0}
